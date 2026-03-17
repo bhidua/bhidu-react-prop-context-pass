@@ -10,7 +10,7 @@ export default function Layout({ navbar, content }) {
   };
   return (
     <div>
-      {navPass}
+      Layout: {navPass}
       <Navbar data={{ navPass, handleClick }} />
       <Content data={content} />
     </div>

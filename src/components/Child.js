@@ -6,6 +6,7 @@ export default function Child() {
   return (
     <div>
       I am child component.
+      <br />
       <button onClick={() => setConPass(conPass + 1)}>context</button>
     </div>
   );
